@@ -1,2 +1,5 @@
-
-staticPublishPath: "."
+services:
+  name: "stat-site"
+  type: "web"
+  runtime: "static"
+  staticPublishPath: "."
